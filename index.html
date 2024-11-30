@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <hr />
+        <h1>YAY! It’s BOGO</h1>
+    </header>
+    <section class="container">
+        <section class="pricing-options">
+            <!-- 1 Unit Option -->
+            <article class="option" id="option-1">
+                <div class="option1">
+
+                    <input type="radio" name="unit" id="unit-1">
+                    <label for="unit-1">
+                        <h2>1 Unit
+
+                            <span class="discount">10% Off</span>
+                            <br />
+                            <p class="std-price">Standard Price</p>
+                        </h2>
+                        <p class="price">$10.00 USD<br /> <del>$24.00 USD</del></p>
+                    </label>
+                </div>
+                <div class="product-options">
+                    <div class="product-wrapper">
+                        <div>
+                            <label class="label2">Size:</label>
+                            <div class="selection">
+                                <p>#1</p>
+                                <select>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="label3">Color:</label>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 2 Unit Option (Similar structure) -->
+            <article class="option selected" id="option-2">
+                <span class="most-popular">MOST POPULAR</span>
+                <div class="option1">
+                    <input type="radio" name="unit" id="unit-2" checked> 
+                    <label for="unit-2">
+                        <h2>2 Unit
+
+                            <span class="discount">20% Off</span>
+
+                        </h2>
+                        <p class="price">$18.00 USD <br /> <del>$24.00 USD</del></p>
+                    </label>
+                </div>
+                <div class="product-options" style="display: block;">
+                    <div class="product-wrapper">
+                        <div>
+                            <label class="label2">Size:</label>
+                            <div class="selection">
+                                <p>#1</p>
+                                <select>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                            <div class="selection">
+                                <p>#2</p>
+                                <select>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="label3">Color:</label>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                            </select>
+                            <br />
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 3 Unit Option -->
+            <article class="option" id="option-3">
+
+                <div class="option1">
+                    <input type="radio" name="unit" id="unit-3">
+                    <label for="unit-3">
+                        <h2>3 Unit
+
+                            <span class="discount">30% Off</span>
+
+                        </h2>
+                        <p class="price">$24.00 USD <br /><del>$36.00 USD</del></p>
+                    </label>
+                </div>
+                <div class="product-options">
+                    <div class="product-wrapper">
+                        <div>
+                            <label class="label2">Size:</label>
+                            <div class="selection">
+                                <p>#1</p>
+                                <select>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="label3">Color:</label>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+
+        <!-- Free Delivery and Total Charge -->
+        <div class="delivery-total">
+            <p class="free-delivery">Free Delivery</p>
+            <p class="total-price">Total: <span>$18.00 USD</span></p>
+        </div>
+
+        <button class="add-to-cart">+ Add to Cart</button>
+    </section>
+    <footer>
+        <p>@ Powered by Pumper</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

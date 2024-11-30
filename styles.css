@@ -1,0 +1,270 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+
+}
+
+header h1 {
+    text-align: center;
+    color: #ff69b4;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pricing-options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.price {
+    font-size: 14.46px;
+    font-weight: 500;
+}
+
+
+.option1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.discount {
+    background-color: #ff69b4;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    font-weight: bold;
+}
+
+.most-popular {
+    background-color: #ff4444;
+    color: white;
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
+.delivery-total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #444;
+}
+
+.free-delivery {
+    color: #ff69b4;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.total-price span {
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+button.add-to-cart {
+    background-color: #ff69b4;
+    color: white;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+button.add-to-cart:hover {
+    background-color: #ff4181;
+}
+
+.option {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    transition: background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.option.selected {
+    border: 2px solid #ff69b4;
+    background-color: #ffeef7;
+}
+
+.product-options {
+    display: none;
+    margin-top: 10px;
+
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+label {
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 260px;
+    justify-content: space-between;
+}
+
+.container {
+    width: 342px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+del {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.art {
+    display: flex;
+    flex-direction: column;
+}
+hr{
+    width: 342px;
+
+}
+header {
+    position: relative;
+    text-align: center;
+    width: 342px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header hr {
+    border: none;
+    border-top: 1px solid #000000; 
+    width: 100%;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+header h1 {
+    display: inline-block;
+    background-color: #f9f9f9; 
+    padding: 0 20px; 
+    position: relative;
+    z-index: 1; 
+}
+
+
+select {
+    width: 65px;
+    height: 25px;
+    margin: 5px;
+}
+
+.product-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 250px;
+    gap: 0rem;
+}
+
+.selection {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 3px;
+}
+
+p {
+    font-size: 9px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.label2,
+.label3 {
+    font-size: 12px;
+    font-weight: 400;
+    width: 50px;
+    margin-bottom: 3px;
+}
+.label3{
+    margin-left: 5px;
+}
+
+.label2 {
+    margin-left: 14px;
+}
+
+.most-popular {
+    position: relative;
+    background-color: #FF6B82;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 6px 12px;
+    border-radius: 3px;
+    top: -2rem;
+    left: 6rem;
+}
+.std-price{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+footer {
+    margin-top: inherit;
+    width: 341px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-end;
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    justify-content: end;
+}
+.option {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option.selected {
+    border: 2px solid #ff69b4;
+    background-color: #ffeef7;
+}
+
+.product-options {
+    display: none;
+    margin-top: 10px;
+}
+
+.option.selected .product-options {
+    display: block;
+}
+
+
